@@ -1,5 +1,5 @@
-const process = require('process')
+import process from 'process';
 export const environment = {
-  supabaseUrl: process.ENV['SUPABASE_URL'],
-  supabaseKey: process.ENV['SUPABASE_KEY']
+  supabaseUrl: process.env['SUPABASE_URL'],
+  supabaseKey: process.env['SUPABASE_KEY']
 };
